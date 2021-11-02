@@ -1,0 +1,2 @@
+!function(){const e=document.getElementById("bubble");document.addEventListener("submit",(t=>{const n=t.target;if("form"===n.id){t.preventDefault();const s=new FormData(n).get("input");if(s){const t=new SpeechSynthesisUtterance(s);speechSynthesis.speak(t),document.body.dataset.input=s.toLowerCase(),e.removeAttribute("hidden"),e.textContent=s}else e.hidden=!0;n.reset()}}))}();
+//# sourceMappingURL=index.8cb67259.js.map
