@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "parcel build src/index.html --dist-dir docs/",
+    "build": "parcel build src/index.html --dist-dir docs/ --public-url ./",
     "prebuild": "rm -rf docs/*",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html"
