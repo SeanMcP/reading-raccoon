@@ -55,7 +55,7 @@ input {
   @include bubbly();
 
   bottom: calc(100% + 1.5rem);
-  font-family: "Comic Sans MS";
+  font-family: "Kalam";
   font-weight: bold;
   min-width: 10rem;
   padding: 1.5rem;
@@ -94,7 +94,6 @@ input {
   $gap: 0.5rem;
   border-top: 2px solid black;
   display: flex;
-  gap: $gap;
   padding: $gap;
 
   label {
@@ -106,12 +105,14 @@ input {
     border: 2px solid black;
     flex-grow: 1;
     padding: $gap;
+    margin: 0 $gap;
   }
 
   button {
     background-color: black;
-    color: white;
     border: none;
+    color: white;
+    font-family: 'Kalam';
     padding: $gap $gap * 2;
   }
 
